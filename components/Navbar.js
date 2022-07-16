@@ -45,7 +45,7 @@ function Navbar() {
                                     <div className="logo_container">
                                         <a href="#">
                                             <div className="logo_content d-flex flex-row align-items-end justify-content-start">
-                                                {/* <div className="logo_img"><img src="https://via.placeholder.com/75x50.png?text=Engineering+Minds" alt="" /></div> */}
+                                                {/* <div className="logo_img"><img src="assets/images/em_logo.jpeg" alt="Engineering Minds" height="50px" /></div> */}
                                                 <div className="logo_text">Engineering Minds</div>
                                             </div>
                                         </a>

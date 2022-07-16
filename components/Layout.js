@@ -5,7 +5,7 @@ function Layout({ children }) {
     return (
         <div className="super_container">
             <Navbar />
-            <div>{children}</div>
+            {children}
             <Footer />
         </div>
     )
