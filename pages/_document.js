@@ -6,7 +6,7 @@ class MainDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    <meta name="description" content="Engineering Minds"/>
+                    <meta name="description" content="Engineering Minds" />
 
                     <link rel="stylesheet" type="text/css" href="assets/bootstrap4/bootstrap.min.css" />
                     <link rel="stylesheet" type="text/css" href="assets/styles/main_styles.css" />
@@ -14,6 +14,10 @@ class MainDocument extends Document {
                     <link rel="stylesheet" type="text/css" href="assets/styles/elements.css" />
                     <link rel="stylesheet" type="text/css" href="assets/styles/elements_responsive.css" />
                     <link rel="stylesheet" type="text/css" href="assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css" />
+                    <link rel="stylesheet" type="text/css" href="assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
+                    <link rel="stylesheet" type="text/css" href="assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" />
+                    <link rel="stylesheet" type="text/css" href="assets/plugins/OwlCarousel2-2.2.1/animate.css" />
+                    <link href="assets/plugins/video-js/video-js.css" rel="stylesheet" type="text/css" />
                     <script src="assets/js/jquery-3.2.1.min.js"></script>
                     <script src="assets/bootstrap4/popper.js"></script>
                     <script src="assets/bootstrap4/bootstrap.min.js"></script>
