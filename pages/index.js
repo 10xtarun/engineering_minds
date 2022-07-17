@@ -22,8 +22,8 @@ export default function Home() {
 				<div className="container">
 					<div className="intro w-80">
 						<h2 className="text-center">Why Join Us ?</h2>
-						<h6 className="text-center w-100" style={{ width: "100%" }}>
-							Engineering Minds comprises a team of teachers having seamless wealth of knowledge and insurmountable experience. The expertise of these teachers and their unique teaching techniques has helped thousands of students achieve meritorious marks in their exams. Every teacher of our team has experience of 20+ years and has taught 15000+ engineering students in their respective careers. Our endeavor is to excel in everything we do. We are currently offering OFFLINE coaching in BORIVALI and MUUND.						</h6>
+						<h4 className="text-center w-100" style={{ width: "100%" }}>
+							Engineering Minds comprises a team of teachers having seamless wealth of knowledge and insurmountable experience. The expertise of these teachers and their unique teaching techniques has helped thousands of students achieve meritorious marks in their exams. Every teacher of our team has experience of 20+ years and has taught 15000+ engineering students in their respective careers. Our endeavor is to excel in everything we do. We are currently offering OFFLINE coaching in BORIVALI and MUUND.						</h4>
 					</div>
 					<div className="row people">
 						<div className="col-md-6 col-lg-4 item">

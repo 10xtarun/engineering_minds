@@ -11,13 +11,12 @@ function Navbar() {
                                 <div className="col">
                                     <div className="top_bar_content d-flex flex-row align-items-center justify-content-start" >
                                         <ul className="top_bar_contact_list">
-                                            <li><div className="question">Have any questions?</div></li>
-                                            {/* <li>
-                                            <div>(009) 35475 6688933 32</div>
-                                        </li>
-                                        <li>
-                                            <div>info@elaerntemplate.com</div>
-                                        </li> */}
+                                            {/* <li><div className="question">Have any questions?</div></li> */}
+                                            <li>
+                                                <div className="logo_img">
+                                                <img src="assets/images/em_logo_cropped.jpeg" height="100px" alt="Engineering Minds" />
+                                                </div>
+                                            </li>
                                         </ul>
                                         <div className="top_bar_login ml-auto">
                                             <ul>

@@ -2,7 +2,7 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="container">
-                <div className="row">
+                <div className="row my-0">
 
                     {/* About  */}
                     <div className="col-lg-3 footer_col">
@@ -10,16 +10,21 @@ function Footer() {
                             <div className="logo_container">
                                 <a href="#">
                                     <div className="logo_content d-flex flex-row align-items-end justify-content-start">
-                                        <div className="logo_img"><img src="assets/images/em_logo.jpg" alt="" /></div>
-                                        <div className="logo_text">Engineering Minds</div>
+                                        <div className="logo_img">
+                                        <img src="assets/images/em_logo_cropped.jpeg" 
+                                        style={{
+                                            height: "150px",
+                                            zIndex: -1
+                                        }}
+                                        alt="" /></div>
                                     </div>
                                 </a>
                             </div>
                             <div className="footer_about_text">
-                                <p>Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar.</p>
+                                <div className="logo_text" style={{marginTop: "8rem"}}>Engineering Minds</div>
                             </div>
                             <div className="footer_social">
-                            <p>Follow Us On:</p>
+                                <p>Follow Us On:</p>
                                 <ul>
                                     <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                                     <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true"></i></a></li>
