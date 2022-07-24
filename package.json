@@ -1,13 +1,12 @@
 {
-  "name": "local",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "12.2.2",
@@ -15,7 +14,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.19.0",
+    "eslint": "8.20.0",
     "eslint-config-next": "12.2.2"
   }
 }

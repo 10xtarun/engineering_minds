@@ -14,7 +14,7 @@ function Navbar() {
                                             {/* <li><div className="question">Have any questions?</div></li> */}
                                             <li>
                                                 <div className="logo_img">
-                                                <img src="assets/images/em_logo_cropped.jpeg" height="100px" alt="Engineering Minds" />
+                                                    {/* <img src="images/em_logo-transp.png" height="100px" alt="Engineering Minds" /> */}
                                                 </div>
                                             </li>
                                         </ul>
@@ -44,8 +44,8 @@ function Navbar() {
                                     <div className="logo_container">
                                         <a href="#">
                                             <div className="logo_content d-flex flex-row align-items-end justify-content-start">
-                                                {/* <div className="logo_img"><img src="assets/images/em_logo.jpeg" alt="Engineering Minds" height="50px" /></div> */}
-                                                <div className="logo_text">Engineering Minds</div>
+                                                <div className="logo_img"><img height="200px" src="images/em_logo-transp.png" alt="Engineering Minds" /></div>
+                                                {/* <div className="logo_text">Engineering Minds</div> */}
                                             </div>
                                         </a>
                                     </div>

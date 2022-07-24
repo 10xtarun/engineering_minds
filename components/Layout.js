@@ -3,10 +3,9 @@ import Navbar from "./Navbar"
 
 function Layout({ children }) {
     return (
-        <div className="super_container">
+        <div className="">
             <Navbar />
             {children}
-            <Footer />
         </div>
     )
 }
