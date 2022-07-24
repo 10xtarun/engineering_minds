@@ -66,7 +66,7 @@ export default function Home() {
                 <div className="container">
                   <div className="intro w-100">
                     <h2 className="text-center">
-                    Why Choose <span>engineering minds</span> ?
+                    Why Choose <span>Engineering Minds</span> ?
                     </h2>
                   </div>
                   <div className="row people">
